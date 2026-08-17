@@ -33,7 +33,6 @@ StayFix is a simple full-stack web application that helps apartment and PG resid
 
 ## Project Structure
 
-```text
 StayFix/
 │
 ├── backend/
@@ -45,38 +44,51 @@ StayFix/
    ├── style.css
    └── script.js
 
-
 ### 3. Install Backend Dependencies
 
 Open the terminal and run:
 
-```bash
-cd backend
-npm install
+    cd backend
+    npm install
 
-node server.js
+### 4. Start the Backend Server
 
-http://localhost:5000
+Run:
 
-# API Endpoints
-| Method | Endpoint              | Purpose                  |
-| ------ | --------------------- | ------------------------ |
-| GET    | `/api/complaints`     | Get all complaints       |
-| GET    | `/api/complaints/:id` | Get a specific complaint |
-| POST   | `/api/complaints`     | Create a new complaint   |
-| PUT    | `/api/complaints/:id` | Update a complaint       |
-| DELETE | `/api/complaints/:id` | Delete a complaint       |
+    node server.js
 
-API Testing
+The backend server will start at:
 
-The APIs are tested using Postman.
+    http://localhost:5000
 
-Data Storage
+### 5. Open the Frontend
+
+Open the `frontend` folder and open:
+
+    index.html
+
+You can also use **Live Server** in VS Code to run the frontend.
+
+## API Endpoints
+
+| Method | Endpoint | Purpose |
+|--------|----------|---------|
+| GET | `/api/complaints` | Get all complaints |
+| GET | `/api/complaints/:id` | Get a specific complaint |
+| POST | `/api/complaints` | Create a new complaint |
+| PUT | `/api/complaints/:id` | Update a complaint |
+| DELETE | `/api/complaints/:id` | Delete a complaint |
+
+## API Testing
+
+The APIs are tested using **Postman**.
+
+## Data Storage
 
 The current version uses an in-memory JavaScript array to store complaints.
 
 MongoDB can be integrated in the future for permanent data storage.
 
-Author
+## Author
 
-Vandith Kottary
+**Vandith Kottary**
