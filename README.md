@@ -32,7 +32,7 @@ StayFix is a simple full-stack web application that helps apartment and PG resid
 - Postman
 
 ## Project Structure
-'''text
+
 StayFix/
 │
 ├── backend/
@@ -43,7 +43,7 @@ StayFix/
    ├── index.html
    ├── style.css
    └── script.js
-'''text
+
 ### 3. Install Backend Dependencies
 
 Open the terminal and run:
